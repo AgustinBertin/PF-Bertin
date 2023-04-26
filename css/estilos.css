@@ -1,48 +1,44 @@
-
-/*Restablecer CSS*/
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Trebuchet MS;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Trebuchet MS;
 }
 
 /*ROW*/
-.row{
-    padding: 45px;
+.row {
+  padding: 45px;
 }
 
-
-/*body*/
-
-body{
-    margin: 0%;
-    padding: 0;
-    background-color: rgb(237, 255, 237);
-    color: black;
-    position: relative;
-    padding-bottom: 2em;
-    min-height: 100vh;
+body {
+  margin: 0%;
+  padding: 0;
+  background-color: rgb(237, 255, 237);
+  color: black;
+  position: relative;
+  padding-bottom: 2em;
+  min-height: 100vh;
 }
 
-/*NAVBAR*/
-
-nav{
-    background-color: rgb(0, 190, 13);
-    font-size: large;
-    padding-right: 20px;
+nav {
+  background-color: rgb(0, 190, 13);
+  font-size: large;
+  padding-right: 20px;
 }
-nav li:hover{
-    transform: scale(1.2, 1.2);
+nav li {
+  color: #fff;
+}
+nav li:hover {
+  transform: scale(1.2, 1.2);
 }
 
 .navbar-nav .nav-link {
-    text-align: center;
+  text-align: center;
 }
-/*FOOTER*/
 
-footer{
-    margin-bottom: 0;
-    padding: 180px 1px 0px;
+footer {
+  margin-bottom: 0;
+  padding: 180px 1px 0px;
 }
+
+/*# sourceMappingURL=estilos.css.map */

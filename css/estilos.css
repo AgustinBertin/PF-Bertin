@@ -10,6 +10,7 @@
   padding: 45px;
 }
 
+/*BODY*/
 body {
   margin: 0%;
   padding: 0;
@@ -20,13 +21,14 @@ body {
   min-height: 100vh;
 }
 
+/*NAVBAR*/
 nav {
   background-color: rgb(0, 190, 13);
   font-size: large;
   padding-right: 20px;
 }
 nav li {
-  color: #fff;
+  color: white;
 }
 nav li:hover {
   transform: scale(1.2, 1.2);
@@ -36,9 +38,16 @@ nav li:hover {
   text-align: center;
 }
 
+/*FOOTER*/
 footer {
   margin-bottom: 0;
   padding: 180px 1px 0px;
+  text-align: center;
+  color: white;
+}
+footer div {
+  background-color: rgb(27, 27, 27);
+  align-items: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */

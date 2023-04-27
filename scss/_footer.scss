@@ -1,4 +1,11 @@
+/*FOOTER*/
 footer {
     margin-bottom: 0;
     padding: 180px 1px 0px;
+    text-align: $text-align;
+    color: $color;
+    div{
+        background-color: rgb(27, 27, 27);
+        align-items: center;
+    }
 }

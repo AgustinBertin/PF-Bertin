@@ -7,14 +7,14 @@
 
 /*ROW*/
 .row {
-  padding: 45px;
+  padding: 37px;
 }
 
 /*BODY*/
 body {
   margin: 0%;
   padding: 0;
-  background-color: rgb(237, 255, 237);
+  background-color: rgba(46, 90, 117, 0.199);
   color: black;
   position: relative;
   padding-bottom: 2em;

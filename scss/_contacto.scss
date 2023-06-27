@@ -1,0 +1,29 @@
+/*CONTACTO*/
+.form {
+    margin-top: 10px;
+    text-align: center;  
+}
+
+.contact-style {
+    width: 80%;
+    padding: 2px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px;
+}
+
+.button{
+    padding: 3px 105px;
+    color: $color;
+    background-color: black;
+}
+
+.card-consulta{
+    @media screen and (max-width: 540px) {
+        textarea{
+        width: 100%;}
+        input{
+            width: 100%;
+        }
+    }
+}

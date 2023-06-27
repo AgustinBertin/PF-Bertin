@@ -21,7 +21,7 @@
         <a class="navbar-brand" href="../index.html">
           <img src="../img/logo3.png" alt="logo" width="200px">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -55,33 +55,41 @@
             <h1>CONTACTO</h1>
               <p>Dejanos tu consulta y nos pondremos en contacto a la brevedad</p>
           </div>
-          <form>
-            <div class="card p-0">
-              <input type="name" name="Nombre" placeholder="Nombre">
+          <form class="form">
+            <div class="card-contact">
+              <input class="contact-style" type="name" name="Nombre" placeholder="Nombre">
             </div>
-            <div class="card p-0">
-              <input type="lastname" name="Apellido" placeholder="Apellido">
+            <div class="card-contact">
+              <input class="contact-style" type="lastname" name="Apellido" placeholder="Apellido">
             </div>  
-            <div class="card p-0">
-              <input type="email" name="Email" placeholder="Email">
+            <div class="card-contact">
+              <input class="contact-style" type="email" name="Email" placeholder="Email">
             </div>
-            <div class="card p-0">
-              <input type="tel" name="telefono" placeholder="Telefono">
+            <div class="card-contact">
+              <input class="contact-style" type="tel" name="telefono" placeholder="Telefono">
             </div>
-            <div class="card p-0">
-              <input type="direction" name="direccion" placeholder="Direccion">
+            <div class="card-contact">
+              <input class="contact-style" type="direction" name="direccion" placeholder="Direccion">
             </div>
-            <div class="card bg-light">
-              <label for="Consulta">Consulta:</label>
-              <textarea name="" id="" cols="30" rows="10"></textarea>
-            </div>
-            <div class="card bg-light p-0">
-              <input type="submit" value="enviar">
+            <div class="card-consulta">
+                <label class= "consulta" for="Consulta">Consulta:</label>
+              <div>
+                <textarea cols="50" rows="5"></textarea>
+              </div>
+              <div>
+                <input class="button" type="submit" value="enviar">
+              </div>
           </form>
-          </div>
         </div>
       </section>
     </main>
+
+    <!--boton wpp-->
+    <div class="container-boton">
+      <a href="https://web.whatsapp.com/" target="_blank"> 
+        <img class="boton-wpp" src="../img/icono-wpp.png" alt="">
+      </a>
+    </div>
 
 
     <!--PIE DE PAGINA-->
